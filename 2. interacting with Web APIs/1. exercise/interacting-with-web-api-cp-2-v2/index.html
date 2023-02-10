@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="./style.css" />
+        <title>My Counter App</title>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="text-center">Counter App</h1>
+            <h2 id="counter">0</h2>
+            <p class="warning-message d-none" id="warning-message"></p>
+            <div class="d-flex justify-content-center">
+                <button id="btn-add" class="btn btn-success mr-3" onclick="addCounter()">Up</button>
+                <button id="btn-subtract" class="btn btn-danger" onclick="subtractCounter()">Down</button>
+            </div>
+        </div>
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            let counter = 0;
+            const warningElement = document.getElementById("warning-message");
+            const counterElement = document.getElementById("counter");
+
+            function addCounter() {
+                if (counter === 10) {
+                    warningElement.textContent = "Oops! you reach the max value!";
+                    warningElement.classList.remove("d-none");
+                } else {
+                    counter += 1;
+                    warningElement.textContent = "";
+                    counterElement.textContent = counter;
+                }
+                clearMessage();
+            }
+
+            function subtractCounter() {
+                if (counter === 0) {
+                    warningElement.textContent = "Oops! you reach the min value!";
+                    warningElement.classList.remove("d-none");
+                } else {
+                    counter -= 1;
+                    warningElement.textContent = "";
+                    counterElement.textContent = counter;
+                }
+                clearMessage();
+            }
+
+            function clearMessage() {
+                warningElement.classList.add("d-none");
+            }
+        </script>
+    </body>
+</html>
