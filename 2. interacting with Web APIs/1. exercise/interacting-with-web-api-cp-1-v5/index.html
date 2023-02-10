@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Task 1</h1>
+
+    <div>
+      <h1>Random number hari ini:</h1>
+      <span id="random-number"></span>
+    </div>
+
+    <h1>Task 1.1</h1>
+
+    <div>
+      <h1>Random number hari ini:</h1>
+      <span id="random-number-class"></span>
+    </div>
+
+    <h1>Task 2</h1>
+
+    <div>
+      <h1>Ubah angka di bawah menjadi 100</h1>
+      <span id="task-2">77</span>
+    </div>
+
+    <h1>Task 3</h1>
+
+    <div>
+      <h1>Angka di bawah berubah ketika button di klik</h1>
+      <div id="task-3">55</div>
+      <div>
+        <button id="task-3-button">Klik saya!</button>
+      </div>
+    </div>
+
+    <h1>Task 3.1</h1>
+
+    <div>
+      <h1>Angka di bawah hilang ketika button di klik</h1>
+      <div id="task-3-1">55</div>
+      <div>
+        <button id="task-3-1-button">Klik saya!</button>
+      </div>
+    </div>
+
+    <script>
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+      }
+
+      document.getElementById("random-number").textContent = getRandomInt(100);
+      document.getElementById("random-number-class").textContent =
+        getRandomInt(100);
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
