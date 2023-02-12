@@ -1,0 +1,5 @@
+{
+  "debug.javascript.autoAttachFilter": "smart",
+  "debug.javascript.pickAndAttachOptions": {},
+  "jestrunner.jestCommand": "pnpm test"
+}
