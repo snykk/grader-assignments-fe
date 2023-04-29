@@ -1,0 +1,44 @@
+{
+  "photos": [
+    {
+      "imageUrl": "https://imgx.sonora.id/crop/50x44:728x471/x/photo/2019/10/23/1633557869.jpg",
+      "captions": "Siapa yang Tahu???",
+      "createdAt": "2022-11-25T10:25:50.394Z",
+      "updatedAt": "2022-11-28T04:31:16.956Z",
+      "secret": "password",
+      "id": 1
+    },
+    {
+      "imageUrl": "https://i0.wp.com/resepkoki.id/wp-content/uploads/2016/10/kuliner-tahu-sumedang.jpg?fit=1080%2C1080&ssl=1",
+      "captions": "Mereka semua Tahu",
+      "createdAt": "2022-11-25T10:42:19.285Z",
+      "updatedAt": "2022-11-25T11:15:18.914Z",
+      "secret": "password",
+      "id": 2
+    },
+    {
+      "imageUrl": "https://cdn1-production-images-kly.akamaized.net/n3mirwqD6QsJ-sIWaRujScIM-OA=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3575067/original/045426800_1631867490-tempe-5553222_1920.jpg",
+      "captions": "Mereka tidak Tahu",
+      "createdAt": "2022-11-25T10:42:53.293Z",
+      "updatedAt": "2022-11-25T11:16:27.833Z",
+      "secret": "password",
+      "id": 3
+    },
+    {
+      "imageUrl": "https://cdn0-production-images-kly.akamaized.net/ypKb42s0yo4TPJsvoRgdwpQddEk=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1320174/original/026189400_1471425682-kopisiantar.jpg",
+      "captions": "Tidak semua Tahu",
+      "createdAt": "2022-11-25T10:43:42.884Z",
+      "updatedAt": "2022-11-25T10:43:42.884Z",
+      "secret": "password",
+      "id": 4
+    },
+    {
+      "imageUrl": "https://cdn.idntimes.com/content-images/post/20200309/69266770-749425448821286-8877663891942941125-n-32274e4a9cde7ceaddbc0fbe7de31ee2_600x400.jpg",
+      "captions": "Banyak yang Tahu",
+      "createdAt": "2022-11-25T10:58:48.032Z",
+      "updatedAt": "2022-11-25T10:58:48.032Z",
+      "secret": "password",
+      "id": 5
+    }
+  ]
+}
